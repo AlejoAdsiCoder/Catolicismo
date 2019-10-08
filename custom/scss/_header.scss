@@ -35,7 +35,7 @@ header {
         
     }
     nav {
-        ul {
+        ul.menu-head {
             display: flex;
             list-style: none;
             justify-content: space-around;
@@ -55,6 +55,32 @@ header {
                 flex: 1;
                 max-width: 140px;
                 
+            }
+        }
+    }
+    nav {
+        background: #F2F2F2;
+        width: 100%;
+        ul.columns {
+            max-width: 1204px;
+            margin: 0 auto;
+            padding: 0 20px;
+            li {
+                color: #000000;
+                font-family: Helvetica;
+                font-size: 20px;
+                padding: 5px 35px;
+                text-align: center;
+                /* flex-grow: 0; */
+                /* flex-basis: initial; */
+                width: 100%;
+                /* flex-wrap: wrap; */
+                margin: 0 auto;
+                /* vertical-align: middle; */
+                display: flex;
+                /* flex-wrap: wrap; */
+                justify-content: center;
+                align-items: center;
             }
         }
     }

@@ -32,7 +32,7 @@ header {
           top: -55px; }
         header div.sub-header .catolicismo-brand .title span#t2 {
           font-size: 90px; }
-  header nav ul {
+  header nav ul.menu-head {
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -44,12 +44,35 @@ header {
     height: 72px;
     width: 100%;
     background-color: #F2F2F2; }
-    header nav ul li {
+    header nav ul.menu-head li {
       color: #000000;
       font-family: Helvetica;
       font-size: 20px;
       text-align: center;
       flex: 1;
       max-width: 140px; }
+  header nav {
+    background: #F2F2F2;
+    width: 100%; }
+    header nav ul.columns {
+      max-width: 1204px;
+      margin: 0 auto;
+      padding: 0 20px; }
+      header nav ul.columns li {
+        color: #000000;
+        font-family: Helvetica;
+        font-size: 20px;
+        padding: 5px 35px;
+        text-align: center;
+        /* flex-grow: 0; */
+        /* flex-basis: initial; */
+        width: 100%;
+        /* flex-wrap: wrap; */
+        margin: 0 auto;
+        /* vertical-align: middle; */
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center; }
 
 /*# sourceMappingURL=custom.css.map */
