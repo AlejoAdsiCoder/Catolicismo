@@ -81,6 +81,16 @@ header {
                 /* flex-wrap: wrap; */
                 justify-content: center;
                 align-items: center;
+                a {
+                    color: #000000;
+                }
+                &:hover {
+                    background-color: #227BB5;
+                    a {
+                        color: $hover-menu;
+                    }
+                    
+                }
             }
         }
     }
