@@ -1,12 +1,9 @@
 @import 'config';
 
 section.destacadas {
-    display: flex;
+    max-width: 1204px;
     justify-content: center;
     margin: 0 auto;
-    width: 100%;
-    max-width: 1204px;
-    margin-top: 89px;
     .destacada {
         max-width: 657px;
         padding-top: 0px;

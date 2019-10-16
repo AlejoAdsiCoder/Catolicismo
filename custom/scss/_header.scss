@@ -1,9 +1,30 @@
 @import 'config';
 
 header {
+    section.social {
+        height: 47px;
+        display: flex;
+        justify-content: flex-end;
+        max-width: 1087px;
+        margin: 0 auto;
+        div.buttons {
+            width: 380px;
+            height: 47px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: flex-end;    
+            span {
+                background: url(../../img/Lupa.png);
+                width: 29px;
+                height: 28px;
+                background-size: cover;
+            }    
+        }
+    }
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 89px;
     div.arquidiocesis-brand {
         background-image: url(../../img/Arq.png);
         background-size: contain;

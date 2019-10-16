@@ -1,182 +1,197 @@
 body {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 @font-face {
   font-family: "dolphin";
-  src: url("../fonts/Dolphin.ttf") format("truetype");
-}
+  src: url("../fonts/Dolphin.ttf") format("truetype"); }
 @font-face {
   font-family: "helvetica";
-  src: url("../fonts/Helvetica.ttf") format("truetype");
-}
+  src: url("../fonts/Helvetica.ttf") format("truetype"); }
 header {
   width: 100%;
   display: flex;
   flex-direction: column;
-}
-header div.arquidiocesis-brand {
-  background-image: url(../../img/Arq.png);
-  background-size: contain;
-  /* border: 1px solid; */
-  background-repeat: no-repeat;
-  /* margin-left: 151px; */
-  position: relative;
-  left: 151px;
-  width: 158px;
-}
-header div.sub-header {
-  display: flex;
-  justify-content: center;
-}
-header div.sub-header .catolicismo-brand {
-  justify-content: center;
-}
-header div.sub-header .catolicismo-brand .title {
-  font-family: dolphin, sans-serif;
-}
-header div.sub-header .catolicismo-brand .title span#t1 {
-  font-size: 36px;
-  position: relative;
-  left: 108px;
-  top: -55px;
-}
-header div.sub-header .catolicismo-brand .title span#t2 {
-  font-size: 90px;
-}
-header nav ul.menu-head {
-  display: flex;
-  list-style: none;
-  justify-content: space-around;
-  /* align-items: baseline; */
-  padding-left: 0px;
-  margin-top: -8px;
-  align-items: center;
-  margin-bottom: 0;
-  height: 72px;
-  width: 100%;
-  background-color: #F2F2F2;
-}
-header nav ul.menu-head li {
-  color: #000000;
-  font-family: Helvetica;
-  font-size: 20px;
-  text-align: center;
-  flex: 1;
-  max-width: 140px;
-}
-header nav {
-  background: #F2F2F2;
-  width: 100%;
-}
-header nav ul.columns {
-  max-width: 1204px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-header nav ul.columns li {
-  color: #000000;
-  font-family: Helvetica;
-  font-size: 20px;
-  padding: 5px 35px;
-  text-align: center;
-  /* flex-grow: 0; */
-  /* flex-basis: initial; */
-  width: 100%;
-  /* flex-wrap: wrap; */
-  margin: 0 auto;
-  /* vertical-align: middle; */
-  display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: center;
-  align-items: center;
-}
-header nav ul.columns li a {
-  color: #000000;
-}
-header nav ul.columns li:hover {
-  background-color: #227BB5;
-}
-header nav ul.columns li:hover a {
-  color: #fff;
-}
+  margin-bottom: 89px; }
+  header section.social {
+    height: 47px;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1087px;
+    margin: 0 auto; }
+    header section.social div.buttons {
+      width: 380px;
+      height: 47px;
+      border: 1px solid black;
+      display: flex;
+      justify-content: flex-end; }
+      header section.social div.buttons span {
+        background: url(../../img/Lupa.png);
+        width: 29px;
+        height: 28px;
+        background-size: cover; }
+  header div.arquidiocesis-brand {
+    background-image: url(../../img/Arq.png);
+    background-size: contain;
+    /* border: 1px solid; */
+    background-repeat: no-repeat;
+    /* margin-left: 151px; */
+    position: relative;
+    left: 151px;
+    width: 158px; }
+  header div.sub-header {
+    display: flex;
+    justify-content: center; }
+    header div.sub-header .catolicismo-brand {
+      justify-content: center; }
+      header div.sub-header .catolicismo-brand .title {
+        font-family: dolphin, sans-serif; }
+        header div.sub-header .catolicismo-brand .title span#t1 {
+          font-size: 36px;
+          position: relative;
+          left: 108px;
+          top: -55px; }
+        header div.sub-header .catolicismo-brand .title span#t2 {
+          font-size: 90px; }
+  header nav ul.menu-head {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    /* align-items: baseline; */
+    padding-left: 0px;
+    margin-top: -8px;
+    align-items: center;
+    margin-bottom: 0;
+    height: 72px;
+    width: 100%;
+    background-color: #F2F2F2; }
+    header nav ul.menu-head li {
+      color: #000000;
+      font-family: Helvetica;
+      font-size: 20px;
+      text-align: center;
+      flex: 1;
+      max-width: 140px; }
+  header nav {
+    background: #F2F2F2;
+    width: 100%; }
+    header nav ul.columns {
+      max-width: 1204px;
+      margin: 0 auto;
+      padding: 0 20px; }
+      header nav ul.columns li {
+        color: #000000;
+        font-family: Helvetica;
+        font-size: 20px;
+        padding: 5px 35px;
+        text-align: center;
+        /* flex-grow: 0; */
+        /* flex-basis: initial; */
+        width: 100%;
+        /* flex-wrap: wrap; */
+        margin: 0 auto;
+        /* vertical-align: middle; */
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center; }
+        header nav ul.columns li a {
+          color: #000000; }
+        header nav ul.columns li:hover {
+          background-color: #227BB5; }
+          header nav ul.columns li:hover a {
+            color: #fff; }
 
 @font-face {
   font-family: "dolphin";
-  src: url("../fonts/Dolphin.ttf") format("truetype");
-}
+  src: url("../fonts/Dolphin.ttf") format("truetype"); }
 @font-face {
   font-family: "helvetica";
-  src: url("../fonts/Helvetica.ttf") format("truetype");
-}
+  src: url("../fonts/Helvetica.ttf") format("truetype"); }
 section.destacadas {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  width: 100%;
   max-width: 1204px;
-  margin-top: 89px;
-}
-section.destacadas .destacada {
-  max-width: 657px;
-  padding-top: 0px;
-}
-section.destacadas .last-news {
-  max-width: 432px;
-  padding-top: 0px;
-}
-section.destacadas .last-news article {
-  position: relative;
-}
-section.destacadas .last-news article.ln-2 {
-  margin-top: 40px;
-}
-section.destacadas .last-news article .info-on {
-  background: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  top: 144px;
-  height: 94px;
-  padding: 9px;
-  font-family: helvetica;
-  line-height: 25px;
-}
-section.destacadas .last-news article .info-on p {
-  color: white;
-}
+  justify-content: center;
+  margin: 0 auto; }
+  section.destacadas .destacada {
+    max-width: 657px;
+    padding-top: 0px; }
+  section.destacadas .last-news {
+    max-width: 432px;
+    padding-top: 0px; }
+    section.destacadas .last-news article {
+      position: relative; }
+      section.destacadas .last-news article.ln-2 {
+        margin-top: 40px; }
+      section.destacadas .last-news article .info-on {
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 144px;
+        height: 94px;
+        padding: 9px;
+        font-family: helvetica;
+        line-height: 25px; }
+        section.destacadas .last-news article .info-on p {
+          color: white; }
 
 section.noticias {
   max-width: 1204px;
   justify-content: center;
-  margin: 0 auto;
-}
-section.noticias .column {
-  max-width: 1091px;
-}
-section.noticias .column section.columns {
-  justify-content: center;
-}
-section.noticias .column section.columns article.column {
-  max-width: 363px;
-  border-right: 0.5px solid #e4e1e1;
-}
-section.noticias .column section.columns article.column h2.title {
-  margin-bottom: 0px;
-  font-family: Arial;
-  font-weight: bold;
-  line-height: 25px;
-  height: 50px;
-  font-size: 18px;
-}
-section.noticias .column section.columns article.column p.body {
-  font-size: 16px;
-  color: #878787;
-  font-family: Helvetica;
-  font-size: 16px;
-  line-height: 20px;
-}
-section.noticias .column section.columns article.column:last-child {
-  border-right: 0px;
-}
+  margin: 0 auto; }
+  section.noticias .column {
+    max-width: 1091px; }
+    section.noticias .column section.columns {
+      justify-content: center; }
+      section.noticias .column section.columns article.column {
+        max-width: 363px;
+        border-right: 0.5px solid #e4e1e1; }
+        section.noticias .column section.columns article.column h2.title {
+          margin-bottom: 0px;
+          font-family: Arial;
+          font-weight: bold;
+          line-height: 25px;
+          height: 50px;
+          font-size: 18px; }
+        section.noticias .column section.columns article.column p.body {
+          font-size: 16px;
+          color: #878787;
+          font-family: Helvetica;
+          font-size: 16px;
+          line-height: 20px; }
+        section.noticias .column section.columns article.column:last-child {
+          border-right: 0px; }
+
+section.invited {
+  background-color: #F2F2F2; }
+  section.invited section.columns div.column {
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1204px; }
+    section.invited section.columns div.column section.columns {
+      max-width: 1204px;
+      justify-content: center;
+      margin: 0 auto; }
+      section.invited section.columns div.column section.columns .special-invited {
+        max-width: 570px; }
+        section.invited section.columns div.column section.columns .special-invited p.date {
+          color: #227BB5; }
+        section.invited section.columns div.column section.columns .special-invited p.title {
+          font-family: Helvetica;
+          font-size: 25px;
+          line-height: 26px; }
+      section.invited section.columns div.column section.columns .last-invited {
+        max-width: 450px; }
+        section.invited section.columns div.column section.columns .last-invited .invited {
+          padding-top: 22px;
+          padding-bottom: 17px;
+          border-bottom: 1px solid #979797; }
+          section.invited section.columns div.column section.columns .last-invited .invited p.date {
+            color: #227BB5; }
+          section.invited section.columns div.column section.columns .last-invited .invited p.title {
+            font-family: Helvetica;
+            font-size: 25px; }
+          section.invited section.columns div.column section.columns .last-invited .invited:first-child {
+            padding-top: 0px; }
+          section.invited section.columns div.column section.columns .last-invited .invited:last-child {
+            border-bottom: 0px; }
 
 /*# sourceMappingURL=custom.css.map */

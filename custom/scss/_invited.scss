@@ -1,0 +1,48 @@
+section.invited {
+    background-color: #F2F2F2;
+    section.columns {
+        div.column {
+            justify-content: center;
+            margin: 0 auto;
+            max-width: 1204px;
+            section.columns {
+                max-width: 1204px;
+                justify-content: center;
+                margin: 0 auto;
+                .special-invited {
+                    max-width: 570px;
+                    p.date {
+                        color: #227BB5;
+                    }
+                    p.title {
+                        font-family: Helvetica;
+                        font-size: 25px;
+                        line-height: 26px;
+                    }
+                }
+                .last-invited {
+                    max-width: 450px;
+                    .invited {
+                        padding-top: 22px;
+                        padding-bottom: 17px;
+                        border-bottom: 1px solid #979797;
+                        p.date {
+                            color: #227BB5;
+                        }
+                        p.title {
+                            font-family: Helvetica;
+                            font-size: 25px;
+                        }
+                        &:first-child {
+                            padding-top: 0px;
+                        }
+                        &:last-child {
+                            border-bottom: 0px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
