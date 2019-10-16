@@ -1,2 +1,36 @@
 @import 'config';
 
+section.destacadas {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1204px;
+    margin-top: 89px;
+    .destacada {
+        max-width: 657px;
+        padding-top: 0px;
+    }
+    .last-news {
+        max-width: 432px;
+        padding-top: 0px;
+        article {
+            position: relative;
+            &.ln-2 {
+                margin-top: 40px;
+            }
+            .info-on {
+                background: rgba(0,0,0,0.6);
+                position: absolute;
+                top: 144px;
+                height: 94px;
+                padding: 9px;
+                font-family: helvetica;
+                line-height: 25px;
+                p {
+                    color: white;
+                }
+            }
+        }
+    }
+}

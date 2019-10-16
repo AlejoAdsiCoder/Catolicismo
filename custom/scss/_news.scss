@@ -1,0 +1,33 @@
+section.noticias {
+    max-width: 1204px;
+    justify-content: center;
+    margin: 0 auto;
+    .column {
+        max-width: 1091px;
+        section.columns {
+            justify-content: center;
+            article.column {
+                max-width: 363px;
+                border-right: 0.5px solid rgba(228,225,225);
+                h2.title {
+                    margin-bottom: 0px;
+                    font-family: Arial;
+                    font-weight: bold;
+                    line-height: 25px;
+                    height: 50px;
+                    font-size: 18px;
+                }
+                p.body {
+                    font-size: 16px;
+                    color: #878787;	
+                    font-family: Helvetica;	
+                    font-size: 16px;	
+                    line-height: 20px;
+                }
+                &:last-child {
+                    border-right: 0px;
+                }
+            }
+        }
+    }
+}

@@ -7,6 +7,10 @@ body {
   font-family: "dolphin";
   src: url("../fonts/Dolphin.ttf") format("truetype");
 }
+@font-face {
+  font-family: "helvetica";
+  src: url("../fonts/Helvetica.ttf") format("truetype");
+}
 header {
   width: 100%;
   display: flex;
@@ -96,6 +100,83 @@ header nav ul.columns li:hover {
 }
 header nav ul.columns li:hover a {
   color: #fff;
+}
+
+@font-face {
+  font-family: "dolphin";
+  src: url("../fonts/Dolphin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "helvetica";
+  src: url("../fonts/Helvetica.ttf") format("truetype");
+}
+section.destacadas {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1204px;
+  margin-top: 89px;
+}
+section.destacadas .destacada {
+  max-width: 657px;
+  padding-top: 0px;
+}
+section.destacadas .last-news {
+  max-width: 432px;
+  padding-top: 0px;
+}
+section.destacadas .last-news article {
+  position: relative;
+}
+section.destacadas .last-news article.ln-2 {
+  margin-top: 40px;
+}
+section.destacadas .last-news article .info-on {
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 144px;
+  height: 94px;
+  padding: 9px;
+  font-family: helvetica;
+  line-height: 25px;
+}
+section.destacadas .last-news article .info-on p {
+  color: white;
+}
+
+section.noticias {
+  max-width: 1204px;
+  justify-content: center;
+  margin: 0 auto;
+}
+section.noticias .column {
+  max-width: 1091px;
+}
+section.noticias .column section.columns {
+  justify-content: center;
+}
+section.noticias .column section.columns article.column {
+  max-width: 363px;
+  border-right: 0.5px solid #e4e1e1;
+}
+section.noticias .column section.columns article.column h2.title {
+  margin-bottom: 0px;
+  font-family: Arial;
+  font-weight: bold;
+  line-height: 25px;
+  height: 50px;
+  font-size: 18px;
+}
+section.noticias .column section.columns article.column p.body {
+  font-size: 16px;
+  color: #878787;
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 20px;
+}
+section.noticias .column section.columns article.column:last-child {
+  border-right: 0px;
 }
 
 /*# sourceMappingURL=custom.css.map */

@@ -3,6 +3,12 @@
     src: url("../fonts/Dolphin.ttf") format('truetype');
 }
 
+@font-face {
+    font-family: "helvetica"; 
+    src: url("../fonts/Helvetica.ttf") format('truetype');
+  }
+  
+
 $hover-menu: #fff;
 $end-news: #fff;
 $ticket-bogota: rgba(88,165,7,0.8);
