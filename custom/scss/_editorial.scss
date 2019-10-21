@@ -1,10 +1,10 @@
-section.invited {
+section.editorial {
 
     background-color: #F2F2F2;
     div.title {
         background-color: white;
         padding-bottom: 27px;
-        h1.title {
+        h1 {
             background-color: white;
             font-family: $font-title;
             display: flex;
@@ -32,7 +32,7 @@ section.invited {
         justify-content: center;
         margin: 0 auto;
         max-width: 1204px;
-        .special-invited {
+        .important {
             max-width: 629px;
             p.date {
                 color: #227BB5;
@@ -43,9 +43,9 @@ section.invited {
                 line-height: 26px;
             }
         }
-        .last-invited {
+        .last-news {
             max-width: 450px;
-            .invited {
+            article {
                 padding-top: 22px;
                 padding-bottom: 17px;
                 border-bottom: 1px solid #979797;

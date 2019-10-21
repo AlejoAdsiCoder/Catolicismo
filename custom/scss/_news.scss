@@ -3,6 +3,13 @@ section.noticias {
     justify-content: center;
     margin: 0 auto;
     .column {
+        h1.title {
+            width: 570px;
+            padding-bottom: 12px;
+            color: #979797;
+            border-bottom: 3px solid #D5D5D5;
+            font-family: $font-title;
+        }
         max-width: 1091px;
         section.columns {
             justify-content: center;

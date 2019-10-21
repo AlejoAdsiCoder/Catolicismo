@@ -1,0 +1,98 @@
+section.more-news {
+    max-width: 1204px;
+    justify-content: center;
+    margin: 0 auto;
+    .column {
+        max-width: 1091px;
+        div.title {
+            width: 570px;
+            padding-bottom: 12px;
+            color: #979797;
+            border-bottom: 3px solid #D5D5D5;
+            font-family: $font-title;
+            h1 {
+                font-weight: bold;
+            }
+        }
+        section.views-news {
+            display: flex;
+            .left-news {
+                flex-direction: column;
+                font-size: 16px;
+                border-right: 0.5px solid #979797;
+                padding-right: 18px;
+                article.column {
+                    display: flex;
+                    max-height: 219px;
+                    div.img {
+                        width: 316px;
+                    }
+                    div.text {
+                        width: 225px;
+                        padding: 17px;
+                        padding-top: 6px;
+                        font-family: Arial, sans-serif;
+                        font-size: 16px;
+                        line-height: 20px;
+                        p {
+                            width: 216px;
+                            &.date {
+                                margin-bottom: 11px;
+                                margin-top: 4px;
+                            }
+                            &.title {
+                                line-height: 20px;
+                                font-size: 16px;
+                                font-weight: bold;
+                                width: 216px;
+                                margin-bottom: 6px;
+                            }
+                            &.body {
+                                width: 222px;
+                            }
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+            .right-news {
+                flex-direction: column;
+                font-size: 16px;
+                margin-left: 18px;
+                article.column {
+                    display: flex;
+                    max-height: 219px;
+                    div.img {
+                        width: 316px;
+                    }
+                    div.text {
+                        width: 225px;
+                        padding: 17px;
+                        padding-top: 6px;
+                        font-family: Arial, sans-serif;
+                        font-size: 16px;
+                        line-height: 20px;
+                        p {
+                            width: 216px;
+                            &.date {
+                                margin-bottom: 11px;
+                                margin-top: 4px;
+                            }
+                            &.title {
+                                line-height: 20px;
+                                font-size: 16px;
+                                font-weight: bold;
+                                width: 216px;
+                                margin-bottom: 6px;
+                            }
+                            &.body {
+                                width: 222px;
+                            }
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
