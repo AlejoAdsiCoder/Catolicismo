@@ -1,0 +1,33 @@
+section.multimedia {
+    max-width: 1204px;
+    justify-content: center;
+    margin: 0 auto;
+    div.column {
+        max-width: 972px;
+        section.views-img {
+            display: flex;
+            section.left-items, section.right-items {
+                flex-direction: column;
+                max-width: 1060px;
+                margin-right: 37px;
+                .row {
+                    .img {
+                        .content-img {
+                            position: relative;
+                            p.title {
+                                background-color: rgba(0,0,0,0.7);
+                                color: white;
+                                position: absolute;
+                                top: 104px;
+                                padding: 5px;
+                                height: 49px;
+                                font-size: 16px;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
