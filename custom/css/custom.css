@@ -387,15 +387,17 @@ section.multimedia {
         flex-direction: column;
         max-width: 1060px;
         margin-right: 37px; }
-        section.multimedia div.column section.views-img section.left-items .row .img .content-img, section.multimedia div.column section.views-img section.right-items .row .img .content-img {
-          position: relative; }
-          section.multimedia div.column section.views-img section.left-items .row .img .content-img p.title, section.multimedia div.column section.views-img section.right-items .row .img .content-img p.title {
-            background-color: rgba(0, 0, 0, 0.7);
-            color: white;
-            position: absolute;
-            top: 104px;
-            padding: 5px;
-            height: 49px;
-            font-size: 16px; }
+        section.multimedia div.column section.views-img section.left-items .row .img, section.multimedia div.column section.views-img section.right-items .row .img {
+          max-width: 1058px; }
+          section.multimedia div.column section.views-img section.left-items .row .img .content-img, section.multimedia div.column section.views-img section.right-items .row .img .content-img {
+            position: relative; }
+            section.multimedia div.column section.views-img section.left-items .row .img .content-img p.title, section.multimedia div.column section.views-img section.right-items .row .img .content-img p.title {
+              background-color: rgba(0, 0, 0, 0.7);
+              color: white;
+              position: absolute;
+              top: 104px;
+              padding: 5px;
+              height: 49px;
+              font-size: 16px; }
 
 /*# sourceMappingURL=custom.css.map */
